@@ -49,7 +49,7 @@ const hasOwn = Object.hasOwn || function (obj, prop) {
     }
     var link = document.createElement('link');
     link.rel = 'preload';
-    link.href = url + "?v=1784188706331";
+    link.href = url + "?v=1784791167000";
     link.as = 'script';
     var el = document.getElementsByTagName('script')[0];
     el.parentNode.insertBefore(link, el);
@@ -67,9 +67,9 @@ function loadTour()
 
     var settings = new TDV.PlayerSettings();
     settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-    settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1784188706331');
-    settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1784188706331');
-    settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1784188706331');
+    settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1784791167000');
+    settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1784791167000');
+    settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1784791167000');
 
     tour = new TDV.Tour(settings, devicesUrl);
     tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);

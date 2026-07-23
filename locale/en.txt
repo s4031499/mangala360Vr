@@ -92,4 +92,4 @@ panorama_FC3EFBC3_EF3E_C5B1_41E1_EAED0B2A7971.label = DJI_20260616155543_0324_D
 ### Description
 
 ### Title
-tour.name = Untitled 8
+tour.name = Mangala Complex VR 360
